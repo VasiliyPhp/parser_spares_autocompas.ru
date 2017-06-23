@@ -1,0 +1,20 @@
+{
+    "name": "vasiliyphp/parser_spares",
+    "authors": [
+        {
+            "name": "VasiliyPhp",
+            "email": "mister.sergeew-v@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php-curl-class/php-curl-class": "^7.1",
+        "coderockr/php-query": "dev-master"
+    },
+		"autoload":{
+		  "files":[
+			  "core.php",
+				"helper_functions.php"
+			]
+		}
+}
